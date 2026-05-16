@@ -47,6 +47,7 @@
     {"id":{"name":"spr_h4","path":"sprites/spr_h4/spr_h4.yy",},},
     {"id":{"name":"spr_hanburger","path":"sprites/spr_hanburger/spr_hanburger.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
+    {"id":{"name":"Sprite15","path":"sprites/Sprite15/Sprite15.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
