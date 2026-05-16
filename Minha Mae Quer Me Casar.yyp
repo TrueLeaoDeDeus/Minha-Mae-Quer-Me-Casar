@@ -23,12 +23,14 @@
   },
   "name":"Minha Mae Quer Me Casar",
   "resources":[
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"id":{"name":"rm_run","path":"rooms/rm_run/rm_run.yy",},},
+    {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rm_run","path":"rooms/rm_run/rm_run.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
