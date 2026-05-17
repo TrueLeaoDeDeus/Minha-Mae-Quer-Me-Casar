@@ -30,7 +30,7 @@
   ],
   "name":"spr_controle",
   "nineSlice":null,
-  "origin":0,
+  "origin":4,
   "parent":{
     "name":"grup_vida?",
     "path":"folders/sprites/grup_vida?.yy",
@@ -100,8 +100,8 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":0,
-    "yorigin":0,
+    "xorigin":13,
+    "yorigin":8,
   },
   "swatchColours":[
     4278190335,4278255615,4278255360,4294967040,4294901760,4294902015,4294967295,4293717228,4293059298,4292335575,

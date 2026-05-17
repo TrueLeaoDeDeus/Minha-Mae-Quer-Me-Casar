@@ -8,6 +8,15 @@ vel_v_max   =   2;
 
 controles   =   5;
 
+    
+esp = 30;// Espaço entre eles
+
+larg = (controles-1)*esp; // a largura total
+
+ini_x = room_width/2-larg/2; // A tela dividido por dois menos a largura divido por dois 
+meu_y = room_height/10-10;
+
+
 
 mover = function ()
 {
@@ -34,7 +43,26 @@ mover = function ()
     
 }
 
-desenha_cintroles = function ()
+desenha_sem_controles = function ()
 {
+
+    // desenhando no for
+    for (var i = 0; i < controles; i++) 
+    {
+    	draw_sprite_ext(spr_sem_controle,0,ini_x+i*esp,meu_y,1,1,0,c_white,1);
+        
+    }
+    
+}
+
+desenha_controles = function ()
+{
+    image_speed = 1;
+    // desenhando no for
+    for (var j = 0; j < controles-1; j++) 
+    {
+    	draw_sprite(spr_controle,image_index,ini_x+j*esp,meu_y);
+        
+    }
     
 }
