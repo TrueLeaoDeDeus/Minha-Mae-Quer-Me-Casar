@@ -1,12 +1,12 @@
 // Variavel 
 
-vel_h       =0;
-vel_h_max   =2
+vel_h       =   0;
+vel_h_max   =   2
 
-vel_v       =0;
-vel_v_max   =2;
+vel_v       =   0;
+vel_v_max   =   2;
 
-
+controles   =   5;
 
 
 mover = function ()
@@ -32,5 +32,9 @@ mover = function ()
     	image_speed = 0.5;
     }
     
+}
+
+desenha_cintroles = function ()
+{
     
 }
