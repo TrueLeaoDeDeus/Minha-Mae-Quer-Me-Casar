@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"player",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"player",
+  "parent":{
+    "name":"scrp",
+    "path":"folders/scrp.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

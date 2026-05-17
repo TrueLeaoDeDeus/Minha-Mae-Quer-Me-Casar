@@ -1,21 +1,26 @@
 // Variavel 
 
-vel_h       =   0;
-vel_h_max   =   2
+vel_h       = 0;
+vel_h_max   = 2;
 
-vel_v       =   0;
-vel_v_max   =   2;
+vel_v       = 0;
+vel_v_max   = 2;
 
-controles   =   5;
+controles   = 5;
 
     
-esp = 30;// Espaço entre eles
+esp         = 30;// Espaço entre eles
 
-larg = (controles-1)*esp; // a largura total
+larg        = (controles-1)*esp; // a largura total
 
-ini_x = room_width/2-larg/2; // A tela dividido por dois menos a largura divido por dois 
-meu_y = room_height/10-10;
+ini_x       = room_width/2-larg/2; // A tela dividido por dois menos a largura divido por dois 
+meu_y       = room_height/10-10;
 
+
+pode_perder = false;
+
+timer       = 60;
+timer_r     = timer;
 
 
 mover = function ()
@@ -59,10 +64,40 @@ desenha_controles = function ()
 {
     image_speed = 1;
     // desenhando no for
-    for (var j = 0; j < controles-1; j++) 
+    for (var j = 0; j < global.controles; j++) 
     {
     	draw_sprite(spr_controle,image_index,ini_x+j*esp,meu_y);
         
     }
     
+}
+
+perder_controle = function ()
+{
+    if (pode_perder) 
+    {
+        timer--;
+        
+        image_alpha = lerp(image_alpha,0.1,0.1);
+        if (timer<=0 ) 
+        {
+            if (global.controles>0) 
+            {
+            	global.controles--;
+            }
+            
+            if (global.controles<=0) 
+            {
+            	room_restart();
+                audio_stop_all();
+                global.controles = 5;
+            }
+            
+            image_alpha = 1;
+            timer = timer_r;
+        	pode_perder = false;
+           //show_message("foi");
+        }
+    	
+    }
 }

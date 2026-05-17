@@ -1,1 +1,3 @@
 mover();
+
+perder_controle();
