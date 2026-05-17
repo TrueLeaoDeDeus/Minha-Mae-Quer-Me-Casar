@@ -30,6 +30,7 @@
   },
   "name":"Minha Mae Quer Me Casar",
   "resources":[
+    {"id":{"name":"obj_comida","path":"objects/obj_comida/obj_comida.yy",},},
     {"id":{"name":"obj_controador","path":"objects/obj_controador/obj_controador.yy",},},
     {"id":{"name":"obj_girl1","path":"objects/obj_girl1/obj_girl1.yy",},},
     {"id":{"name":"obj_hitoria","path":"objects/obj_hitoria/obj_hitoria.yy",},},
