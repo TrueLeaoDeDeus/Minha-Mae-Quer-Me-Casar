@@ -1,25 +1,26 @@
-timer       = 60;
-timer_r     =timer
-
 
 // Variavel
-vel         = 2;
-vel_y        = 2;
+vel_x           = random_range(1,4);
+vel_y           = random_range(1,4);
 
-mover       = function ()
+randomise()
+
+sprite_index = choose(spr_garota_0,spr_garota_1,spr_garota_2,spr_garota_3,spr_garota_4);
+
+mover           = function ()
 {
-      if (x <= 0)
-   {
-       x = 0;
-       vel = abs(vel);
-   }
-   
-   if (x >= room_width)
-   {
-       x = room_width;
-       vel = -abs(vel);
-   }
+   // SE subi muito deço
+    if (y <= 130 or y > room_height-90) vel_y = -vel_y;
+  
     
- 
+    y += vel_y;
     
+    x -=vel_x;
+    
+    
+    if (x<-10) 
+    { 
+        instance_destroy();
+        //show_message("foi");
+    }
 }
