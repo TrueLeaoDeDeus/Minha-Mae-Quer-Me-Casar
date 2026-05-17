@@ -29,7 +29,7 @@ mover = function ()
     
    image_speed = 1;
     if (_left) {
-    	image_speed = 0.4;
+    	image_speed = 0.5;
     }
     
     
