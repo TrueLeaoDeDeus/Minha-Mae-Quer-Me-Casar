@@ -10,9 +10,9 @@
   },
   "defaultScriptType":1,
   "Folders":[
-    {"$GMFolder":"","%Name":"sons","folderPath":"folders/sons.yy","name":"sons","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"objetos","folderPath":"folders/objetos.yy","name":"objetos","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"room","folderPath":"folders/room.yy","name":"room","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"sons","folderPath":"folders/sons.yy","name":"sons","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"sprites","folderPath":"folders/sprites.yy","name":"sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"grup_bg","folderPath":"folders/sprites/grup_bg.yy","name":"grup_bg","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"grup_comida","folderPath":"folders/sprites/grup_comida.yy","name":"grup_comida","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -28,9 +28,12 @@
   },
   "name":"Minha Mae Quer Me Casar",
   "resources":[
+    {"id":{"name":"obj_controador","path":"objects/obj_controador/obj_controador.yy",},},
     {"id":{"name":"obj_girl1","path":"objects/obj_girl1/obj_girl1.yy",},},
+    {"id":{"name":"obj_hitoria","path":"objects/obj_hitoria/obj_hitoria.yy",},},
     {"id":{"name":"obj_parede","path":"objects/obj_parede/obj_parede.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"id":{"name":"rm_historia","path":"rooms/rm_historia/rm_historia.yy",},},
     {"id":{"name":"rm_run","path":"rooms/rm_run/rm_run.yy",},},
     {"id":{"name":"snd_never_weve","path":"sounds/snd_never_weve/snd_never_weve.yy",},},
     {"id":{"name":"snd_pego","path":"sounds/snd_pego/snd_pego.yy",},},
@@ -59,6 +62,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"rm_historia","path":"rooms/rm_historia/rm_historia.yy",},},
     {"roomId":{"name":"rm_run","path":"rooms/rm_run/rm_run.yy",},},
   ],
   "templateType":"game",
