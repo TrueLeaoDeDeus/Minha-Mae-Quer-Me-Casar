@@ -2,7 +2,7 @@
 timer       = 60;
 timer_r     = timer;
 
-
+audio_play_sound(snd_never_weve,0,true)
 
 // Controlando a quantidade de garota que posso soltar?
 
