@@ -1,0 +1,2 @@
+
+cria_garotas();
