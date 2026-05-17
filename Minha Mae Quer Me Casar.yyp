@@ -60,6 +60,7 @@
     {"id":{"name":"spr_hanburger","path":"sprites/spr_hanburger/spr_hanburger.yy",},},
     {"id":{"name":"spr_historia","path":"sprites/spr_historia/spr_historia.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
+    {"id":{"name":"spr_sem_controle","path":"sprites/spr_sem_controle/spr_sem_controle.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
