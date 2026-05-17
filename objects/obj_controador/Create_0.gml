@@ -2,6 +2,9 @@
 timer       = 60;
 timer_r     = timer;
 
+tempo_jogo  = 0;
+record      = 0;
+
 audio_play_sound(snd_never_weve,0,true)
 
 // Controlando a quantidade de garota que posso soltar?
@@ -17,4 +20,13 @@ cria_garotas = function()
         instance_create_layer(room_width,room_height/2,"mulheres",obj_girl1);
     }
    
+}
+
+controla_tempo = function ()
+{
+    tempo_jogo += 1/60;
+    if (tempo_jogo > record) 
+    {
+    	record = tempo_jogo;
+    }
 }

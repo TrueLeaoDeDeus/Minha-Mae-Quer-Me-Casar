@@ -10,9 +10,9 @@
   },
   "defaultScriptType":1,
   "Folders":[
-    {"$GMFolder":"","%Name":"scrp","folderPath":"folders/scrp.yy","name":"scrp","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"objetos","folderPath":"folders/objetos.yy","name":"objetos","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"room","folderPath":"folders/room.yy","name":"room","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"scrp","folderPath":"folders/scrp.yy","name":"scrp","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"sons","folderPath":"folders/sons.yy","name":"sons","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"sprites","folderPath":"folders/sprites.yy","name":"sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"grup_bg","folderPath":"folders/sprites/grup_bg.yy","name":"grup_bg","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -53,6 +53,7 @@
     {"id":{"name":"spr_garota_2","path":"sprites/spr_garota_2/spr_garota_2.yy",},},
     {"id":{"name":"spr_garota_3","path":"sprites/spr_garota_3/spr_garota_3.yy",},},
     {"id":{"name":"spr_garota_4","path":"sprites/spr_garota_4/spr_garota_4.yy",},},
+    {"id":{"name":"spr_garota_5","path":"sprites/spr_garota_5/spr_garota_5.yy",},},
     {"id":{"name":"spr_garota1","path":"sprites/spr_garota1/spr_garota1.yy",},},
     {"id":{"name":"spr_grama","path":"sprites/spr_grama/spr_grama.yy",},},
     {"id":{"name":"spr_h1","path":"sprites/spr_h1/spr_h1.yy",},},

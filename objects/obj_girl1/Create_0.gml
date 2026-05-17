@@ -1,11 +1,11 @@
 
 // Variavel
-vel_x           = random_range(1,4);
-vel_y           = random_range(1,4);
+vel_x           = random_range(2,4);
+vel_y           = random_range(2,4);
 
 randomize();
 
-sprite_index = choose(spr_garota_0,spr_garota_1,spr_garota_2,spr_garota_3,spr_garota_4);
+sprite_index = choose(spr_garota_0,spr_garota_1,spr_garota_2,spr_garota_3,spr_garota_4,spr_garota_5);
 
 mover           = function ()
 {
