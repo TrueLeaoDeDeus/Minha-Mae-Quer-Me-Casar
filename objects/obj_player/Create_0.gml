@@ -91,6 +91,7 @@ perder_controle = function ()
             	room_restart();
                 audio_stop_all();
                 global.controles = 5;
+                global.garotas  = 0;
             }
             
             image_alpha = 1;
