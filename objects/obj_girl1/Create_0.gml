@@ -1,10 +1,10 @@
 
 // Variavel
 vel_x           = random_range(2,4);
-
+correndo        = true;
 
 if (global.garotas>90)
-{
+{ 
     vel_y = random_range(5,6);
 }else if (global.garotas>70)
 {

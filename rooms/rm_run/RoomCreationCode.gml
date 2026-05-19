@@ -1,0 +1,1 @@
+ global.controles    =  5;

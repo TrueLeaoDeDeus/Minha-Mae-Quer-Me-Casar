@@ -19,8 +19,11 @@ meu_y       = room_height/10-10;
 
 pode_perder = false;
 
+correndo    = true;
+
 timer       = 60;
 timer_r     = timer;
+
 
 
 mover = function ()
@@ -88,10 +91,16 @@ perder_controle = function ()
             
             if (global.controles<=0) 
             {
-            	room_restart();
-                audio_stop_all();
-                global.controles = 5;
-                global.garotas  = 0;
+            	//room_restart();
+                with (obj_controador) 
+                {
+                	exibir_recorde     = true;
+                    para_tempo         = true;
+                    parar = true;
+                    
+                }
+               
+
             }
             
             image_alpha = 1;

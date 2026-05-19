@@ -48,6 +48,7 @@
     {"id":{"name":"spr_controle","path":"sprites/spr_controle/spr_controle.yy",},},
     {"id":{"name":"spr_coxinha","path":"sprites/spr_coxinha/spr_coxinha.yy",},},
     {"id":{"name":"spr_dica_space","path":"sprites/spr_dica_space/spr_dica_space.yy",},},
+    {"id":{"name":"spr_escore","path":"sprites/spr_escore/spr_escore.yy",},},
     {"id":{"name":"spr_fundo_asfalto","path":"sprites/spr_fundo_asfalto/spr_fundo_asfalto.yy",},},
     {"id":{"name":"spr_garota_0","path":"sprites/spr_garota_0/spr_garota_0.yy",},},
     {"id":{"name":"spr_garota_1","path":"sprites/spr_garota_1/spr_garota_1.yy",},},
