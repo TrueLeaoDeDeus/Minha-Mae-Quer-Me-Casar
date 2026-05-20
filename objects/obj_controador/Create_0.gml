@@ -68,6 +68,8 @@ desenha_record  = function ()
     draw_sprite_ext(spr_escore,0,meio_x,meio_y,1,1,0,c_white,1);
     draw_sprite_ext(spr_escore,1,meio_x,meio_y,1,1,0,c_white,1);
     
+    draw_sprite_ext(spr_dica_space_Reset,1,meio_x,meio_y+100,1,1,0,c_white,1);
+    
     
     draw_set_halign(1);
     draw_set_colour(c_black);
